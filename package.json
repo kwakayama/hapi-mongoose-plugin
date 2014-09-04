@@ -1,0 +1,48 @@
+{
+  "name": "hapi-mongoose-plugin",
+  "description": "Plugin to share mongoose instance",
+  "version": "0.1.0",
+  "homepage": "https://github.com/kwakayama/hapi-mongoose-plugin",
+  "bugs": "https://github.com/kwakayama/hapi-mongoose-plugin/issues",
+  "license": "MIT",
+  "main": "index",
+  "author": {
+    "name": "Kentaro Wakayama",
+    "email": "wakayama.kentaro@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kwakayama/hapi-mongoose-plugin"
+  },
+  "keywords": [
+    "hapi",
+    "plugin"
+  ],
+  "dependencies": {
+    "hoek": "2.4.1",
+    "mongoose": "^3.8.15"
+  },
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "gulp-util": "2.2.16",
+    "gulp-bump": "^0.1.8",
+    "gulp-jscs": "^0.4.2",
+    "gulp-jshint": "^1.5.5",
+    "gulp-nodemon": "^1.0.4",
+    "gulp-istanbul": "^0.2.2",
+    "jshint-stylish": "^0.2.0",
+    "gulp-load-plugins": "^0.5.1",
+    "gulp-plumber": "^0.6.2",
+    "gulp-mocha": "^1.0.0",
+    "hapi": "6.x.x"
+  },
+  "peerDependencies": {
+    "hapi": ">=2.x.x"
+  },
+  "engines": {
+    "node": ">=0.10.22"
+  },
+  "scripts": {
+    "test": "gulp test"
+  }
+}
